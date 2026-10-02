@@ -5,7 +5,7 @@
 # SambasKu Pronunciation
 
 Repositori **penyimpanan file audio pelafalan** untuk aplikasi **SambasKu**
-(Kamus Digital Sambas–Indonesia).
+(Kamus Digital Sambas-Indonesia).
 
 ## Apa isi repo ini?
 
@@ -39,9 +39,9 @@ assets/audio/umum/makatn/01HXYZ….m4a
 assets/audio/sambas-kota/makatn/01HABC….wav
 ```
 
-- `dialect` — kode dialek (slug); jika tidak ada → folder `umum`
-- `lemma-slug` — lemma dinormalisasi (huruf kecil, non-alfanumerik → `-`)
-- Nama file — ULID unik (immutable; unggah baru = file baru)
+- `dialect` - kode dialek (slug); jika tidak ada → folder `umum`
+- `lemma-slug` - lemma dinormalisasi (huruf kecil, non-alfanumerik → `-`)
+- Nama file - ULID unik (immutable; unggah baru = file baru)
 
 ## URL publik (dipakai client)
 
@@ -66,7 +66,7 @@ Path relatif tetap ada di `provider_file_id` bila basis URL CDN diganti nanti.
 
 - Tidak ada UI upload manual yang didukung sebagai alur produksi
 - Tidak menyimpan notasi IPA (itu tabel `pronunciations` di API)
-- Jangan rename / pindah file yang sudah di-referensi DB — URL CDN akan putus
+- Jangan rename / pindah file yang sudah di-referensi DB - URL CDN akan putus
 
 ## Akses API (server saja)
 
@@ -84,7 +84,7 @@ Dokumentasi endpoint & kontrak: `docs/api/29-api-pronunciation-audio.md`
 
 ## Lisensi
 
-Kode & dokumentasi repo ini dilisensikan di bawah **MIT** — lihat
+Kode & dokumentasi repo ini dilisensikan di bawah **MIT** - lihat
 [`LICENSE`](./LICENSE).
 
 Rekaman audio dikirim kontributor SambasKu untuk keperluan kamus. Metadata
