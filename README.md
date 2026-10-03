@@ -79,8 +79,7 @@ PRONUNCIACION_GITHUB_URL=https://github.com/sambasku/audios
 PRONUNCIACION_GITHUB_TOKEN=<pat>
 ```
 
-Dokumentasi endpoint & kontrak: `docs/api/29-api-pronunciation-audio.md`
-(di monorepo SambasKu) dan ringkasan di `api/README.md`.
+Ringkasan endpoint & kontrak: `api/README.md`.
 
 ## Lisensi
 
